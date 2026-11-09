@@ -13,11 +13,11 @@ Staff shift management REST API for venue personnel. Administrators create shift
 - Actuator, Lombok, Testcontainers
 - Maven (wrapper)
 
-## Running locally on Windows
+## Running locally
 
 ```bash
 docker compose up -d
-mvnw spring-boot:run
+./mvnw spring-boot:run  # use `mvnw` on Windows
 ```
 
 ## License
