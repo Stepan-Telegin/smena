@@ -7,11 +7,18 @@ Staff shift management REST API for venue personnel. Administrators create shift
 ## Tech Stack
 
 - Java 21, Spring Boot 4.1.1
-- Spring Web (MVC), Spring Data JPA, Spring Security
+- Spring Web (MVC), Spring Data JPA
 - PostgreSQL 17.11 (Docker, Alpine), Flyway for migrations
 - SpringDoc OpenAPI 3 (Swagger UI)
 - Actuator, Lombok, Testcontainers
 - Maven (wrapper)
+
+## Running locally on Windows
+
+```bash
+docker compose up -d
+mvnw spring-boot:run
+```
 
 ## License
 
