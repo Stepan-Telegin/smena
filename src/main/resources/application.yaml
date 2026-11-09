@@ -1,3 +1,21 @@
 spring:
   application:
     name: smena
+  datasource:
+    url: jdbc:postgresql://${DB_HOST:localhost}:${DB_PORT:5432}/${DB_NAME:smena}
+    username: ${DB_USER:smena}
+    password: ${DB_PASSWORD:smena-local}
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    open-in-view: false
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health, info
+
+springdoc:
+  swagger-ui:
+    url: /openapi.yaml
