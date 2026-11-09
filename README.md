@@ -1,2 +1,22 @@
-# smena
-REST API for staff shift management built with Spring Boot 4.1, PostgreSQL 17, Flyway and OpenAPI 3.1. Portfolio project demonstrating clean architecture and industry-standard practices.
+# Smena
+
+Staff shift management REST API for venue personnel. Administrators create shifts and upload schedules; employees mark their availability and get assigned to shifts.
+
+**Current status:** project scaffold.
+
+## Tech Stack
+
+- Java 21, Spring Boot 4.1.1
+- Spring Web (MVC), Spring Data JPA, Spring Security
+- PostgreSQL 17.11 (Docker, Alpine), Flyway for migrations
+- SpringDoc OpenAPI 3 (Swagger UI)
+- Actuator, Lombok, Testcontainers
+- Maven (wrapper)
+
+## License
+
+MIT. See the `pom.xml` for full license metadata.
+
+## Author
+
+Stepan Telegin — stepan.telegin.dev@gmail.com
